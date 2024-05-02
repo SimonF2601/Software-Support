@@ -1,0 +1,460 @@
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\ServicioAPI.dll.config
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\ServicioAPI.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\ServicioAPI.pdb
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\csc.exe
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\csc.exe.config
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\csc.rsp
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\csi.exe
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\csi.exe.config
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\csi.rsp
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.AppContext.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Console.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\vbc.exe
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\vbc.exe.config
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\vbc.rsp
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\Antlr3.Runtime.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\EntityFramework.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\Newtonsoft.Json.Bson.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\Newtonsoft.Json.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Buffers.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Memory.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Numerics.Vectors.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Cors.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Helpers.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Http.Cors.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Http.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Mvc.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Optimization.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Razor.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.WebPages.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\WebGrease.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\EntityFramework.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\Newtonsoft.Json.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\Newtonsoft.Json.Bson.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Buffers.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Memory.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Numerics.Vectors.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Helpers.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Http.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Http.Cors.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Mvc.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Razor.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.WebPages.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\System.Web.Optimization.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\Antlr3.Runtime.pdb
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\es\System.Web.Http.resources.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\es\System.Web.Razor.resources.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\obj\Debug\ServicioAPI.csproj.AssemblyReference.cache
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\obj\Debug\ServicioAPI.csproj.CoreCompileInputs.cache
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\obj\Debug\ServicioAPI.csproj.CopyComplete
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\obj\Debug\ServicioAPI.dll
+C:\Users\made_\OneDrive\Escritorio\ENTREGAAPI\ServicioAPI\obj\Debug\ServicioAPI.pdb
+C:\Users\simon\Downloads\ServicioAPI\bin\ServicioAPI.dll.config
+C:\Users\simon\Downloads\ServicioAPI\bin\ServicioAPI.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\ServicioAPI.pdb
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\csc.exe
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\csc.exe.config
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\csc.rsp
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\csi.exe
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\csi.exe.config
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\csi.rsp
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.AppContext.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Console.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\vbc.exe
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\vbc.exe.config
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\vbc.rsp
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\simon\Downloads\ServicioAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\simon\Downloads\ServicioAPI\bin\Antlr3.Runtime.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\EntityFramework.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\Newtonsoft.Json.Bson.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\Newtonsoft.Json.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Buffers.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Memory.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Numerics.Vectors.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Cors.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Helpers.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Http.Cors.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Http.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Mvc.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Optimization.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Razor.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.WebPages.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\WebGrease.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\EntityFramework.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\Newtonsoft.Json.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\simon\Downloads\ServicioAPI\bin\Newtonsoft.Json.Bson.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Buffers.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Memory.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Numerics.Vectors.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Helpers.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Http.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Http.Cors.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Mvc.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Razor.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.WebPages.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\System.Web.Optimization.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\Antlr3.Runtime.pdb
+C:\Users\simon\Downloads\ServicioAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\simon\Downloads\ServicioAPI\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\es\System.Web.Http.resources.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\es\System.Web.Razor.resources.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\simon\Downloads\ServicioAPI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\simon\Downloads\ServicioAPI\obj\Debug\ServicioAPI.csproj.AssemblyReference.cache
+C:\Users\simon\Downloads\ServicioAPI\obj\Debug\ServicioAPI.csproj.CoreCompileInputs.cache
+C:\Users\simon\Downloads\ServicioAPI\obj\Debug\Servicio.FD5D9F0E.Up2Date
+C:\Users\simon\Downloads\ServicioAPI\obj\Debug\ServicioAPI.dll
+C:\Users\simon\Downloads\ServicioAPI\obj\Debug\ServicioAPI.pdb
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\ServicioAPI.dll.config
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\ServicioAPI.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\ServicioAPI.pdb
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\csc.exe
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\csc.exe.config
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\csc.rsp
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\csi.exe
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\csi.exe.config
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\csi.rsp
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.AppContext.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Console.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\vbc.exe
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\vbc.exe.config
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\vbc.rsp
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\Antlr3.Runtime.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\EntityFramework.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\Newtonsoft.Json.Bson.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\Newtonsoft.Json.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Buffers.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Memory.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Numerics.Vectors.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Cors.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Helpers.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Http.Cors.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Http.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Mvc.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Optimization.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Razor.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.WebPages.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\WebGrease.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\EntityFramework.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\Newtonsoft.Json.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\Newtonsoft.Json.Bson.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Buffers.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Memory.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Numerics.Vectors.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Helpers.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Http.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Http.Cors.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Mvc.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Razor.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.WebPages.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\System.Web.Optimization.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\Antlr3.Runtime.pdb
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\es\System.Web.Http.resources.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\es\System.Web.Razor.resources.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\obj\Debug\ServicioAPI.csproj.AssemblyReference.cache
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\obj\Debug\ServicioAPI.csproj.CoreCompileInputs.cache
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\obj\Debug\ServicioAPI.csproj.CopyComplete
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\obj\Debug\ServicioAPI.dll
+C:\Users\made_\OneDrive\Escritorio\SIMONFRANCO\ServicioAPI\obj\Debug\ServicioAPI.pdb
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\ServicioAPI.dll.config
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\ServicioAPI.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\ServicioAPI.pdb
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\csc.exe
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\csc.exe.config
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\csc.rsp
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\csi.exe
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\csi.exe.config
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\csi.rsp
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.AppContext.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Console.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\vbc.exe
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\vbc.exe.config
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\vbc.rsp
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\Antlr3.Runtime.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\EntityFramework.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\Newtonsoft.Json.Bson.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\Newtonsoft.Json.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Buffers.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Memory.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Numerics.Vectors.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Cors.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Helpers.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Http.Cors.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Http.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Mvc.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Optimization.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Razor.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.WebPages.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\WebGrease.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\EntityFramework.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\Newtonsoft.Json.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\Newtonsoft.Json.Bson.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Buffers.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Memory.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Numerics.Vectors.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Helpers.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Http.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Http.Cors.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Mvc.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Razor.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.WebPages.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\System.Web.Optimization.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\Antlr3.Runtime.pdb
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\es\System.Web.Http.resources.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\es\System.Web.Razor.resources.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\obj\Debug\ServicioAPI.csproj.AssemblyReference.cache
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\obj\Debug\ServicioAPI.csproj.CoreCompileInputs.cache
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\obj\Debug\Servicio.FD5D9F0E.Up2Date
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\obj\Debug\ServicioAPI.dll
+C:\Users\simon\Documents\ITM\V Semestre\Servicios Web\Proyecto_Software_Support\ServicioAPI\ServicioAPI\obj\Debug\ServicioAPI.pdb

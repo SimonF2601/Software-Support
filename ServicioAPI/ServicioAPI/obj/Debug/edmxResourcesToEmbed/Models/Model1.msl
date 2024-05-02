@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SoporteModelStoreContainer" CdmEntityContainer="SoporteEntities">
+    <EntitySetMapping Name="Administradors">
+      <EntityTypeMapping TypeName="SoporteModel.Administrador">
+        <MappingFragment StoreEntitySet="Administrador">
+          <ScalarProperty Name="ID_Administrador" ColumnName="ID_Administrador" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Areas">
+      <EntityTypeMapping TypeName="SoporteModel.Area">
+        <MappingFragment StoreEntitySet="Area">
+          <ScalarProperty Name="ID_Area" ColumnName="ID_Area" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cargoes">
+      <EntityTypeMapping TypeName="SoporteModel.Cargo">
+        <MappingFragment StoreEntitySet="Cargo">
+          <ScalarProperty Name="ID_Cargo" ColumnName="ID_Cargo" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="SoporteModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="ID_Cliente" ColumnName="ID_Cliente" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="CorreoElectronico" ColumnName="CorreoElectronico" />
+          <ScalarProperty Name="Cargo_ID" ColumnName="Cargo_ID" />
+          <ScalarProperty Name="Area_ID" ColumnName="Area_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Especialidads">
+      <EntityTypeMapping TypeName="SoporteModel.Especialidad">
+        <MappingFragment StoreEntitySet="Especialidad">
+          <ScalarProperty Name="ID_Especialidad" ColumnName="ID_Especialidad" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inscripcion_Cliente">
+      <EntityTypeMapping TypeName="SoporteModel.Inscripcion_Cliente">
+        <MappingFragment StoreEntitySet="Inscripcion_Cliente">
+          <ScalarProperty Name="ID_Inscripcion_Cliente" ColumnName="ID_Inscripcion_Cliente" />
+          <ScalarProperty Name="ID_Cliente" ColumnName="ID_Cliente" />
+          <ScalarProperty Name="FechaInscripcion" ColumnName="FechaInscripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inscripcion_Producto">
+      <EntityTypeMapping TypeName="SoporteModel.Inscripcion_Producto">
+        <MappingFragment StoreEntitySet="Inscripcion_Producto">
+          <ScalarProperty Name="ID_Inscripcion_Producto" ColumnName="ID_Inscripcion_Producto" />
+          <ScalarProperty Name="ID_Producto" ColumnName="ID_Producto" />
+          <ScalarProperty Name="FechaInscripcion" ColumnName="FechaInscripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Login_Admin">
+      <EntityTypeMapping TypeName="SoporteModel.Login_Admin">
+        <MappingFragment StoreEntitySet="Login_Admin">
+          <ScalarProperty Name="ID_Login_Admin" ColumnName="ID_Login_Admin" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Contraseña" ColumnName="Contraseña" />
+          <ScalarProperty Name="Id_Administrador" ColumnName="Id_Administrador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Login_Tecnico">
+      <EntityTypeMapping TypeName="SoporteModel.Login_Tecnico">
+        <MappingFragment StoreEntitySet="Login_Tecnico">
+          <ScalarProperty Name="ID_Login_Tecnico" ColumnName="ID_Login_Tecnico" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Contraseña" ColumnName="Contraseña" />
+          <ScalarProperty Name="ID_Tecnico" ColumnName="ID_Tecnico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Numero_Contacto">
+      <EntityTypeMapping TypeName="SoporteModel.Numero_Contacto">
+        <MappingFragment StoreEntitySet="Numero_Contacto">
+          <ScalarProperty Name="ID_Numero" ColumnName="ID_Numero" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Id_Cliente" ColumnName="Id_Cliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productoes">
+      <EntityTypeMapping TypeName="SoporteModel.Producto">
+        <MappingFragment StoreEntitySet="Producto">
+          <ScalarProperty Name="ID_Producto" ColumnName="ID_Producto" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tecnicoes">
+      <EntityTypeMapping TypeName="SoporteModel.Tecnico">
+        <MappingFragment StoreEntitySet="Tecnico">
+          <ScalarProperty Name="ID_Tecnico" ColumnName="ID_Tecnico" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Edad" ColumnName="Edad" />
+          <ScalarProperty Name="Especialidad_ID" ColumnName="Especialidad_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ticket_Tecnico">
+      <EntityTypeMapping TypeName="SoporteModel.Ticket_Tecnico">
+        <MappingFragment StoreEntitySet="Ticket_Tecnico">
+          <ScalarProperty Name="ID_Ticket_Tecnico" ColumnName="ID_Ticket_Tecnico" />
+          <ScalarProperty Name="ID_Tecnico" ColumnName="ID_Tecnico" />
+          <ScalarProperty Name="ID_Cliente" ColumnName="ID_Cliente" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="DescripcionProblema" ColumnName="DescripcionProblema" />
+          <ScalarProperty Name="TipoSoporte" ColumnName="TipoSoporte" />
+          <ScalarProperty Name="ProductoSoporte" ColumnName="ProductoSoporte" />
+          <ScalarProperty Name="DescripcionSolucion" ColumnName="DescripcionSolucion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ticket_Vista_Cliente">
+      <EntityTypeMapping TypeName="SoporteModel.Ticket_Vista_Cliente">
+        <MappingFragment StoreEntitySet="Ticket_Vista_Cliente">
+          <ScalarProperty Name="ID_Ticket_Vista_Cliente" ColumnName="ID_Ticket_Vista_Cliente" />
+          <ScalarProperty Name="ID_Cliente" ColumnName="ID_Cliente" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="DescripcionProblema" ColumnName="DescripcionProblema" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipo_Producto">
+      <EntityTypeMapping TypeName="SoporteModel.Tipo_Producto">
+        <MappingFragment StoreEntitySet="Tipo_Producto">
+          <ScalarProperty Name="ID_TipoProducto" ColumnName="ID_TipoProducto" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

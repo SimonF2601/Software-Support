@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SoporteModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Administrador">
+    <Key>
+      <PropertyRef Name="ID_Administrador" />
+    </Key>
+    <Property Name="ID_Administrador" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Documento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Login_Admin" Relationship="Self.FK__Login_Adm__Id_Ad__5CD6CB2B" FromRole="Administrador" ToRole="Login_Admin" />
+  </EntityType>
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="ID_Area" />
+    </Key>
+    <Property Name="ID_Area" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Clientes" Relationship="Self.FK__Cliente__Area_ID__3C69FB99" FromRole="Area" ToRole="Cliente" />
+  </EntityType>
+  <EntityType Name="Cargo">
+    <Key>
+      <PropertyRef Name="ID_Cargo" />
+    </Key>
+    <Property Name="ID_Cargo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Clientes" Relationship="Self.FK__Cliente__Cargo_I__3B75D760" FromRole="Cargo" ToRole="Cliente" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="ID_Cliente" />
+    </Key>
+    <Property Name="ID_Cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Documento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CorreoElectronico" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Cargo_ID" Type="Int32" />
+    <Property Name="Area_ID" Type="Int32" />
+    <NavigationProperty Name="Area" Relationship="Self.FK__Cliente__Area_ID__3C69FB99" FromRole="Cliente" ToRole="Area" />
+    <NavigationProperty Name="Cargo" Relationship="Self.FK__Cliente__Cargo_I__3B75D760" FromRole="Cliente" ToRole="Cargo" />
+    <NavigationProperty Name="Inscripcion_Cliente" Relationship="Self.FK__Inscripci__ID_Cl__5441852A" FromRole="Cliente" ToRole="Inscripcion_Cliente" />
+    <NavigationProperty Name="Numero_Contacto" Relationship="Self.FK__Numero_Co__Id_Cl__3F466844" FromRole="Cliente" ToRole="Numero_Contacto" />
+    <NavigationProperty Name="Ticket_Tecnico" Relationship="Self.FK__Ticket_Te__ID_Cl__4F7CD00D" FromRole="Cliente" ToRole="Ticket_Tecnico" />
+    <NavigationProperty Name="Ticket_Vista_Cliente" Relationship="Self.FK__Ticket_Vi__ID_Cl__4222D4EF" FromRole="Cliente" ToRole="Ticket_Vista_Cliente" />
+  </EntityType>
+  <EntityType Name="Especialidad">
+    <Key>
+      <PropertyRef Name="ID_Especialidad" />
+    </Key>
+    <Property Name="ID_Especialidad" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Tecnicoes" Relationship="Self.FK__Tecnico__Especia__4BAC3F29" FromRole="Especialidad" ToRole="Tecnico" />
+  </EntityType>
+  <EntityType Name="Inscripcion_Cliente">
+    <Key>
+      <PropertyRef Name="ID_Inscripcion_Cliente" />
+    </Key>
+    <Property Name="ID_Inscripcion_Cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Cliente" Type="Int32" />
+    <Property Name="FechaInscripcion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK__Inscripci__ID_Cl__5441852A" FromRole="Inscripcion_Cliente" ToRole="Cliente" />
+  </EntityType>
+  <EntityType Name="Inscripcion_Producto">
+    <Key>
+      <PropertyRef Name="ID_Inscripcion_Producto" />
+    </Key>
+    <Property Name="ID_Inscripcion_Producto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Producto" Type="Int32" />
+    <Property Name="FechaInscripcion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK__Inscripci__ID_Pr__571DF1D5" FromRole="Inscripcion_Producto" ToRole="Producto" />
+  </EntityType>
+  <EntityType Name="Login_Admin">
+    <Key>
+      <PropertyRef Name="ID_Login_Admin" />
+    </Key>
+    <Property Name="ID_Login_Admin" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Contraseña" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Id_Administrador" Type="Int32" />
+    <NavigationProperty Name="Administrador" Relationship="Self.FK__Login_Adm__Id_Ad__5CD6CB2B" FromRole="Login_Admin" ToRole="Administrador" />
+  </EntityType>
+  <EntityType Name="Login_Tecnico">
+    <Key>
+      <PropertyRef Name="ID_Login_Tecnico" />
+    </Key>
+    <Property Name="ID_Login_Tecnico" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Contraseña" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ID_Tecnico" Type="Int32" />
+    <NavigationProperty Name="Tecnico" Relationship="Self.FK__Login_Tec__ID_Te__59FA5E80" FromRole="Login_Tecnico" ToRole="Tecnico" />
+  </EntityType>
+  <EntityType Name="Numero_Contacto">
+    <Key>
+      <PropertyRef Name="ID_Numero" />
+    </Key>
+    <Property Name="ID_Numero" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Numero" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Id_Cliente" Type="Int32" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK__Numero_Co__Id_Cl__3F466844" FromRole="Numero_Contacto" ToRole="Cliente" />
+  </EntityType>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="ID_Producto" />
+    </Key>
+    <Property Name="ID_Producto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Modelo" Type="Int32" />
+    <Property Name="Descripcion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Tipo" Type="Int32" />
+    <NavigationProperty Name="Inscripcion_Producto" Relationship="Self.FK__Inscripci__ID_Pr__571DF1D5" FromRole="Producto" ToRole="Inscripcion_Producto" />
+    <NavigationProperty Name="Tipo_Producto" Relationship="Self.FK__Producto__Tipo__46E78A0C" FromRole="Producto" ToRole="Tipo_Producto" />
+  </EntityType>
+  <EntityType Name="Tecnico">
+    <Key>
+      <PropertyRef Name="ID_Tecnico" />
+    </Key>
+    <Property Name="ID_Tecnico" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Documento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Edad" Type="Int32" />
+    <Property Name="Especialidad_ID" Type="Int32" />
+    <NavigationProperty Name="Especialidad" Relationship="Self.FK__Tecnico__Especia__4BAC3F29" FromRole="Tecnico" ToRole="Especialidad" />
+    <NavigationProperty Name="Login_Tecnico" Relationship="Self.FK__Login_Tec__ID_Te__59FA5E80" FromRole="Tecnico" ToRole="Login_Tecnico" />
+    <NavigationProperty Name="Ticket_Tecnico" Relationship="Self.FK__Ticket_Te__ID_Te__4E88ABD4" FromRole="Tecnico" ToRole="Ticket_Tecnico" />
+  </EntityType>
+  <EntityType Name="Ticket_Tecnico">
+    <Key>
+      <PropertyRef Name="ID_Ticket_Tecnico" />
+    </Key>
+    <Property Name="ID_Ticket_Tecnico" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Tecnico" Type="Int32" />
+    <Property Name="ID_Cliente" Type="Int32" />
+    <Property Name="FechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="Estado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DescripcionProblema" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="TipoSoporte" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProductoSoporte" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DescripcionSolucion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK__Ticket_Te__ID_Cl__4F7CD00D" FromRole="Ticket_Tecnico" ToRole="Cliente" />
+    <NavigationProperty Name="Tecnico" Relationship="Self.FK__Ticket_Te__ID_Te__4E88ABD4" FromRole="Ticket_Tecnico" ToRole="Tecnico" />
+  </EntityType>
+  <EntityType Name="Ticket_Vista_Cliente">
+    <Key>
+      <PropertyRef Name="ID_Ticket_Vista_Cliente" />
+    </Key>
+    <Property Name="ID_Ticket_Vista_Cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Cliente" Type="Int32" />
+    <Property Name="FechaCreacion" Type="DateTime" Precision="3" />
+    <Property Name="Estado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DescripcionProblema" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK__Ticket_Vi__ID_Cl__4222D4EF" FromRole="Ticket_Vista_Cliente" ToRole="Cliente" />
+  </EntityType>
+  <EntityType Name="Tipo_Producto">
+    <Key>
+      <PropertyRef Name="ID_TipoProducto" />
+    </Key>
+    <Property Name="ID_TipoProducto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Productoes" Relationship="Self.FK__Producto__Tipo__46E78A0C" FromRole="Tipo_Producto" ToRole="Producto" />
+  </EntityType>
+  <Association Name="FK__Login_Adm__Id_Ad__5CD6CB2B">
+    <End Role="Administrador" Type="Self.Administrador" Multiplicity="0..1" />
+    <End Role="Login_Admin" Type="Self.Login_Admin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Administrador">
+        <PropertyRef Name="ID_Administrador" />
+      </Principal>
+      <Dependent Role="Login_Admin">
+        <PropertyRef Name="Id_Administrador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Cliente__Area_ID__3C69FB99">
+    <End Role="Area" Type="Self.Area" Multiplicity="0..1" />
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="ID_Area" />
+      </Principal>
+      <Dependent Role="Cliente">
+        <PropertyRef Name="Area_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Cliente__Cargo_I__3B75D760">
+    <End Role="Cargo" Type="Self.Cargo" Multiplicity="0..1" />
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cargo">
+        <PropertyRef Name="ID_Cargo" />
+      </Principal>
+      <Dependent Role="Cliente">
+        <PropertyRef Name="Cargo_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Inscripci__ID_Cl__5441852A">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Inscripcion_Cliente" Type="Self.Inscripcion_Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Principal>
+      <Dependent Role="Inscripcion_Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Numero_Co__Id_Cl__3F466844">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Numero_Contacto" Type="Self.Numero_Contacto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Principal>
+      <Dependent Role="Numero_Contacto">
+        <PropertyRef Name="Id_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket_Te__ID_Cl__4F7CD00D">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Ticket_Tecnico" Type="Self.Ticket_Tecnico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Principal>
+      <Dependent Role="Ticket_Tecnico">
+        <PropertyRef Name="ID_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket_Vi__ID_Cl__4222D4EF">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Ticket_Vista_Cliente" Type="Self.Ticket_Vista_Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Principal>
+      <Dependent Role="Ticket_Vista_Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Tecnico__Especia__4BAC3F29">
+    <End Role="Especialidad" Type="Self.Especialidad" Multiplicity="0..1" />
+    <End Role="Tecnico" Type="Self.Tecnico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Especialidad">
+        <PropertyRef Name="ID_Especialidad" />
+      </Principal>
+      <Dependent Role="Tecnico">
+        <PropertyRef Name="Especialidad_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Inscripci__ID_Pr__571DF1D5">
+    <End Role="Producto" Type="Self.Producto" Multiplicity="0..1" />
+    <End Role="Inscripcion_Producto" Type="Self.Inscripcion_Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ID_Producto" />
+      </Principal>
+      <Dependent Role="Inscripcion_Producto">
+        <PropertyRef Name="ID_Producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Login_Tec__ID_Te__59FA5E80">
+    <End Role="Tecnico" Type="Self.Tecnico" Multiplicity="0..1" />
+    <End Role="Login_Tecnico" Type="Self.Login_Tecnico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tecnico">
+        <PropertyRef Name="ID_Tecnico" />
+      </Principal>
+      <Dependent Role="Login_Tecnico">
+        <PropertyRef Name="ID_Tecnico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Producto__Tipo__46E78A0C">
+    <End Role="Tipo_Producto" Type="Self.Tipo_Producto" Multiplicity="0..1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Producto">
+        <PropertyRef Name="ID_TipoProducto" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="Tipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket_Te__ID_Te__4E88ABD4">
+    <End Role="Tecnico" Type="Self.Tecnico" Multiplicity="0..1" />
+    <End Role="Ticket_Tecnico" Type="Self.Ticket_Tecnico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tecnico">
+        <PropertyRef Name="ID_Tecnico" />
+      </Principal>
+      <Dependent Role="Ticket_Tecnico">
+        <PropertyRef Name="ID_Tecnico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SoporteEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Administradors" EntityType="Self.Administrador" />
+    <EntitySet Name="Areas" EntityType="Self.Area" />
+    <EntitySet Name="Cargoes" EntityType="Self.Cargo" />
+    <EntitySet Name="Clientes" EntityType="Self.Cliente" />
+    <EntitySet Name="Especialidads" EntityType="Self.Especialidad" />
+    <EntitySet Name="Inscripcion_Cliente" EntityType="Self.Inscripcion_Cliente" />
+    <EntitySet Name="Inscripcion_Producto" EntityType="Self.Inscripcion_Producto" />
+    <EntitySet Name="Login_Admin" EntityType="Self.Login_Admin" />
+    <EntitySet Name="Login_Tecnico" EntityType="Self.Login_Tecnico" />
+    <EntitySet Name="Numero_Contacto" EntityType="Self.Numero_Contacto" />
+    <EntitySet Name="Productoes" EntityType="Self.Producto" />
+    <EntitySet Name="Tecnicoes" EntityType="Self.Tecnico" />
+    <EntitySet Name="Ticket_Tecnico" EntityType="Self.Ticket_Tecnico" />
+    <EntitySet Name="Ticket_Vista_Cliente" EntityType="Self.Ticket_Vista_Cliente" />
+    <EntitySet Name="Tipo_Producto" EntityType="Self.Tipo_Producto" />
+    <AssociationSet Name="FK__Login_Adm__Id_Ad__5CD6CB2B" Association="Self.FK__Login_Adm__Id_Ad__5CD6CB2B">
+      <End Role="Administrador" EntitySet="Administradors" />
+      <End Role="Login_Admin" EntitySet="Login_Admin" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Cliente__Area_ID__3C69FB99" Association="Self.FK__Cliente__Area_ID__3C69FB99">
+      <End Role="Area" EntitySet="Areas" />
+      <End Role="Cliente" EntitySet="Clientes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Cliente__Cargo_I__3B75D760" Association="Self.FK__Cliente__Cargo_I__3B75D760">
+      <End Role="Cargo" EntitySet="Cargoes" />
+      <End Role="Cliente" EntitySet="Clientes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Inscripci__ID_Cl__5441852A" Association="Self.FK__Inscripci__ID_Cl__5441852A">
+      <End Role="Cliente" EntitySet="Clientes" />
+      <End Role="Inscripcion_Cliente" EntitySet="Inscripcion_Cliente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Numero_Co__Id_Cl__3F466844" Association="Self.FK__Numero_Co__Id_Cl__3F466844">
+      <End Role="Cliente" EntitySet="Clientes" />
+      <End Role="Numero_Contacto" EntitySet="Numero_Contacto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket_Te__ID_Cl__4F7CD00D" Association="Self.FK__Ticket_Te__ID_Cl__4F7CD00D">
+      <End Role="Cliente" EntitySet="Clientes" />
+      <End Role="Ticket_Tecnico" EntitySet="Ticket_Tecnico" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket_Vi__ID_Cl__4222D4EF" Association="Self.FK__Ticket_Vi__ID_Cl__4222D4EF">
+      <End Role="Cliente" EntitySet="Clientes" />
+      <End Role="Ticket_Vista_Cliente" EntitySet="Ticket_Vista_Cliente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Tecnico__Especia__4BAC3F29" Association="Self.FK__Tecnico__Especia__4BAC3F29">
+      <End Role="Especialidad" EntitySet="Especialidads" />
+      <End Role="Tecnico" EntitySet="Tecnicoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Inscripci__ID_Pr__571DF1D5" Association="Self.FK__Inscripci__ID_Pr__571DF1D5">
+      <End Role="Producto" EntitySet="Productoes" />
+      <End Role="Inscripcion_Producto" EntitySet="Inscripcion_Producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Login_Tec__ID_Te__59FA5E80" Association="Self.FK__Login_Tec__ID_Te__59FA5E80">
+      <End Role="Tecnico" EntitySet="Tecnicoes" />
+      <End Role="Login_Tecnico" EntitySet="Login_Tecnico" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Producto__Tipo__46E78A0C" Association="Self.FK__Producto__Tipo__46E78A0C">
+      <End Role="Tipo_Producto" EntitySet="Tipo_Producto" />
+      <End Role="Producto" EntitySet="Productoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket_Te__ID_Te__4E88ABD4" Association="Self.FK__Ticket_Te__ID_Te__4E88ABD4">
+      <End Role="Tecnico" EntitySet="Tecnicoes" />
+      <End Role="Ticket_Tecnico" EntitySet="Ticket_Tecnico" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

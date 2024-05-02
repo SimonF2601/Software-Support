@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SoporteModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Administrador">
+    <Key>
+      <PropertyRef Name="ID_Administrador" />
+    </Key>
+    <Property Name="ID_Administrador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Documento" Type="varchar" MaxLength="50" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="ID_Area" />
+    </Key>
+    <Property Name="ID_Area" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Cargo">
+    <Key>
+      <PropertyRef Name="ID_Cargo" />
+    </Key>
+    <Property Name="ID_Cargo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="ID_Cliente" />
+    </Key>
+    <Property Name="ID_Cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+    <Property Name="Documento" Type="varchar" MaxLength="50" />
+    <Property Name="CorreoElectronico" Type="varchar" MaxLength="100" />
+    <Property Name="Cargo_ID" Type="int" />
+    <Property Name="Area_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="Especialidad">
+    <Key>
+      <PropertyRef Name="ID_Especialidad" />
+    </Key>
+    <Property Name="ID_Especialidad" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Inscripcion_Cliente">
+    <Key>
+      <PropertyRef Name="ID_Inscripcion_Cliente" />
+    </Key>
+    <Property Name="ID_Inscripcion_Cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Cliente" Type="int" />
+    <Property Name="FechaInscripcion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Inscripcion_Producto">
+    <Key>
+      <PropertyRef Name="ID_Inscripcion_Producto" />
+    </Key>
+    <Property Name="ID_Inscripcion_Producto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Producto" Type="int" />
+    <Property Name="FechaInscripcion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Login_Admin">
+    <Key>
+      <PropertyRef Name="ID_Login_Admin" />
+    </Key>
+    <Property Name="ID_Login_Admin" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="50" />
+    <Property Name="Contraseña" Type="varchar" MaxLength="50" />
+    <Property Name="Id_Administrador" Type="int" />
+  </EntityType>
+  <EntityType Name="Login_Tecnico">
+    <Key>
+      <PropertyRef Name="ID_Login_Tecnico" />
+    </Key>
+    <Property Name="ID_Login_Tecnico" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="50" />
+    <Property Name="Contraseña" Type="varchar" MaxLength="50" />
+    <Property Name="ID_Tecnico" Type="int" />
+  </EntityType>
+  <EntityType Name="Numero_Contacto">
+    <Key>
+      <PropertyRef Name="ID_Numero" />
+    </Key>
+    <Property Name="ID_Numero" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Numero" Type="nvarchar" MaxLength="20" />
+    <Property Name="Tipo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Id_Cliente" Type="int" />
+  </EntityType>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="ID_Producto" />
+    </Key>
+    <Property Name="ID_Producto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+    <Property Name="Modelo" Type="int" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="255" />
+    <Property Name="Tipo" Type="int" />
+  </EntityType>
+  <EntityType Name="Tecnico">
+    <Key>
+      <PropertyRef Name="ID_Tecnico" />
+    </Key>
+    <Property Name="ID_Tecnico" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Documento" Type="varchar" MaxLength="50" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+    <Property Name="Edad" Type="int" />
+    <Property Name="Especialidad_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="Ticket_Tecnico">
+    <Key>
+      <PropertyRef Name="ID_Ticket_Tecnico" />
+    </Key>
+    <Property Name="ID_Ticket_Tecnico" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Tecnico" Type="int" />
+    <Property Name="ID_Cliente" Type="int" />
+    <Property Name="FechaCreacion" Type="datetime" />
+    <Property Name="Estado" Type="varchar" MaxLength="50" />
+    <Property Name="DescripcionProblema" Type="varchar" MaxLength="255" />
+    <Property Name="TipoSoporte" Type="varchar" MaxLength="50" />
+    <Property Name="ProductoSoporte" Type="varchar" MaxLength="100" />
+    <Property Name="DescripcionSolucion" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Ticket_Vista_Cliente">
+    <Key>
+      <PropertyRef Name="ID_Ticket_Vista_Cliente" />
+    </Key>
+    <Property Name="ID_Ticket_Vista_Cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Cliente" Type="int" />
+    <Property Name="FechaCreacion" Type="datetime" />
+    <Property Name="Estado" Type="varchar" MaxLength="50" />
+    <Property Name="DescripcionProblema" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Tipo_Producto">
+    <Key>
+      <PropertyRef Name="ID_TipoProducto" />
+    </Key>
+    <Property Name="ID_TipoProducto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK__Cliente__Area_ID__3C69FB99">
+    <End Role="Area" Type="Self.Area" Multiplicity="0..1" />
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="ID_Area" />
+      </Principal>
+      <Dependent Role="Cliente">
+        <PropertyRef Name="Area_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Cliente__Cargo_I__3B75D760">
+    <End Role="Cargo" Type="Self.Cargo" Multiplicity="0..1" />
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cargo">
+        <PropertyRef Name="ID_Cargo" />
+      </Principal>
+      <Dependent Role="Cliente">
+        <PropertyRef Name="Cargo_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Inscripci__ID_Cl__5441852A">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Inscripcion_Cliente" Type="Self.Inscripcion_Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Principal>
+      <Dependent Role="Inscripcion_Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Inscripci__ID_Pr__571DF1D5">
+    <End Role="Producto" Type="Self.Producto" Multiplicity="0..1" />
+    <End Role="Inscripcion_Producto" Type="Self.Inscripcion_Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ID_Producto" />
+      </Principal>
+      <Dependent Role="Inscripcion_Producto">
+        <PropertyRef Name="ID_Producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Login_Adm__Id_Ad__5CD6CB2B">
+    <End Role="Administrador" Type="Self.Administrador" Multiplicity="0..1" />
+    <End Role="Login_Admin" Type="Self.Login_Admin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Administrador">
+        <PropertyRef Name="ID_Administrador" />
+      </Principal>
+      <Dependent Role="Login_Admin">
+        <PropertyRef Name="Id_Administrador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Login_Tec__ID_Te__59FA5E80">
+    <End Role="Tecnico" Type="Self.Tecnico" Multiplicity="0..1" />
+    <End Role="Login_Tecnico" Type="Self.Login_Tecnico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tecnico">
+        <PropertyRef Name="ID_Tecnico" />
+      </Principal>
+      <Dependent Role="Login_Tecnico">
+        <PropertyRef Name="ID_Tecnico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Numero_Co__Id_Cl__3F466844">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Numero_Contacto" Type="Self.Numero_Contacto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Principal>
+      <Dependent Role="Numero_Contacto">
+        <PropertyRef Name="Id_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Producto__Tipo__46E78A0C">
+    <End Role="Tipo_Producto" Type="Self.Tipo_Producto" Multiplicity="0..1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Producto">
+        <PropertyRef Name="ID_TipoProducto" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="Tipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Tecnico__Especia__4BAC3F29">
+    <End Role="Especialidad" Type="Self.Especialidad" Multiplicity="0..1" />
+    <End Role="Tecnico" Type="Self.Tecnico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Especialidad">
+        <PropertyRef Name="ID_Especialidad" />
+      </Principal>
+      <Dependent Role="Tecnico">
+        <PropertyRef Name="Especialidad_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket_Te__ID_Cl__4F7CD00D">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Ticket_Tecnico" Type="Self.Ticket_Tecnico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Principal>
+      <Dependent Role="Ticket_Tecnico">
+        <PropertyRef Name="ID_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket_Te__ID_Te__4E88ABD4">
+    <End Role="Tecnico" Type="Self.Tecnico" Multiplicity="0..1" />
+    <End Role="Ticket_Tecnico" Type="Self.Ticket_Tecnico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tecnico">
+        <PropertyRef Name="ID_Tecnico" />
+      </Principal>
+      <Dependent Role="Ticket_Tecnico">
+        <PropertyRef Name="ID_Tecnico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket_Vi__ID_Cl__4222D4EF">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Ticket_Vista_Cliente" Type="Self.Ticket_Vista_Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Principal>
+      <Dependent Role="Ticket_Vista_Cliente">
+        <PropertyRef Name="ID_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SoporteModelStoreContainer">
+    <EntitySet Name="Administrador" EntityType="Self.Administrador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Area" EntityType="Self.Area" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cargo" EntityType="Self.Cargo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Especialidad" EntityType="Self.Especialidad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Inscripcion_Cliente" EntityType="Self.Inscripcion_Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Inscripcion_Producto" EntityType="Self.Inscripcion_Producto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Login_Admin" EntityType="Self.Login_Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Login_Tecnico" EntityType="Self.Login_Tecnico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Numero_Contacto" EntityType="Self.Numero_Contacto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Producto" EntityType="Self.Producto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tecnico" EntityType="Self.Tecnico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ticket_Tecnico" EntityType="Self.Ticket_Tecnico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ticket_Vista_Cliente" EntityType="Self.Ticket_Vista_Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tipo_Producto" EntityType="Self.Tipo_Producto" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Cliente__Area_ID__3C69FB99" Association="Self.FK__Cliente__Area_ID__3C69FB99">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="Cliente" EntitySet="Cliente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Cliente__Cargo_I__3B75D760" Association="Self.FK__Cliente__Cargo_I__3B75D760">
+      <End Role="Cargo" EntitySet="Cargo" />
+      <End Role="Cliente" EntitySet="Cliente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Inscripci__ID_Cl__5441852A" Association="Self.FK__Inscripci__ID_Cl__5441852A">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Inscripcion_Cliente" EntitySet="Inscripcion_Cliente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Inscripci__ID_Pr__571DF1D5" Association="Self.FK__Inscripci__ID_Pr__571DF1D5">
+      <End Role="Producto" EntitySet="Producto" />
+      <End Role="Inscripcion_Producto" EntitySet="Inscripcion_Producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Login_Adm__Id_Ad__5CD6CB2B" Association="Self.FK__Login_Adm__Id_Ad__5CD6CB2B">
+      <End Role="Administrador" EntitySet="Administrador" />
+      <End Role="Login_Admin" EntitySet="Login_Admin" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Login_Tec__ID_Te__59FA5E80" Association="Self.FK__Login_Tec__ID_Te__59FA5E80">
+      <End Role="Tecnico" EntitySet="Tecnico" />
+      <End Role="Login_Tecnico" EntitySet="Login_Tecnico" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Numero_Co__Id_Cl__3F466844" Association="Self.FK__Numero_Co__Id_Cl__3F466844">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Numero_Contacto" EntitySet="Numero_Contacto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Producto__Tipo__46E78A0C" Association="Self.FK__Producto__Tipo__46E78A0C">
+      <End Role="Tipo_Producto" EntitySet="Tipo_Producto" />
+      <End Role="Producto" EntitySet="Producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Tecnico__Especia__4BAC3F29" Association="Self.FK__Tecnico__Especia__4BAC3F29">
+      <End Role="Especialidad" EntitySet="Especialidad" />
+      <End Role="Tecnico" EntitySet="Tecnico" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket_Te__ID_Cl__4F7CD00D" Association="Self.FK__Ticket_Te__ID_Cl__4F7CD00D">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Ticket_Tecnico" EntitySet="Ticket_Tecnico" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket_Te__ID_Te__4E88ABD4" Association="Self.FK__Ticket_Te__ID_Te__4E88ABD4">
+      <End Role="Tecnico" EntitySet="Tecnico" />
+      <End Role="Ticket_Tecnico" EntitySet="Ticket_Tecnico" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket_Vi__ID_Cl__4222D4EF" Association="Self.FK__Ticket_Vi__ID_Cl__4222D4EF">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Ticket_Vista_Cliente" EntitySet="Ticket_Vista_Cliente" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

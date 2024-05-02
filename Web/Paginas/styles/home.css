@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    
+}
+
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.navbar-general{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 55px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100vw;
+    margin: 0
+}
+
+.navbar-general img{
+    height: 100px;
+    width: 100px;
+}
+
+.navbar-general .text-group{
+    width: 532px;
+}
+
+.navbar-general .icons{
+    width: 150px;
+    justify-content: space-around;
+}
+
+.icons i{
+    font-size: 45px;
+    padding: 12px;
+}
+
+.text-group span{
+    padding: 5%;
+}
+
+.landing-post{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image:URL("../images/home/principal_image.png");
+    margin-bottom: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    & i{
+        font-size: 6rem;
+        margin-bottom: 5vh;
+        color: white; 
+        transition: color 0.3s; 
+        /* border: 2px solid transparent; */
+    }
+
+    & i:hover{
+        color: #132F3A;
+        /* border: 2px solid aquamarine; */
+    }
+}
+
+.information{
+    background-color: white;
+    display: flex;
+}
+
+.container-left{
+    width: 50%;
+    height: 100%;
+}
+
+.container-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15%;
+    gap: 100px;
+
+    & h1{
+        font-size: 64px;
+    }
+
+    & p{
+        margin: 5% 0;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.607);
+        
+    }
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    & button {
+        width: 162px;
+        height: 90px;
+        border-radius: 10px;
+        text-decoration: none;
+        background-color: black;
+        color: aliceblue;
+    }
+
+    & :nth-child(2){
+        color: black;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+
+.counter{
+    background-color: white;
+}
+
+.services{
+    background-color: white;
+}
+
+.bx-menu{
+    color: black;
+}
+.bx-menu:hover{
+    color: rgb(141, 143, 250);
+}
+
+.bxs-user-circle{
+    color: black;
+}
+.bxs-user-circle:hover{
+    color: rgb(141, 143, 250);
+}
+
+footer{
+    background-color: #132F3A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 14.2vh;
+    
+
+    & .image-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+        padding: 0 0 0 15px;
+    
+        & img{
+            height: 90px;
+            width: 90px;
+        }
+
+        & span{
+            font-size: 16px;
+            color: whitesmoke;
+            font-weight: 400;
+        }
+    }
+
+    & .follow-box{
+        display: flex;
+        flex-direction: column;
+        width: 181px;
+        align-items: center;
+        justify-content: center;
+        
+        & span{
+            font-size: 20px;
+            font-weight: bold;
+            color: whitesmoke;
+            margin-bottom: 10%;
+        }
+
+        & ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            width: 181px;
+            height: 33px;
+
+            & li{
+                font-size: 30px;
+                color: white;
+            }
+        }
+    } 
+
+    & .about-u-box{
+        display: flex;
+        flex-direction: column;
+        width: 181px;
+        align-items: center;
+        justify-content: center;
+        
+        & span{
+            font-size: 20px;
+            font-weight: bold;
+            color: whitesmoke;
+            margin-bottom: 10%;
+        }
+
+        & ul {
+            list-style: none;
+            width: 181px;
+            height: 33px;
+
+            & li{
+                color: white;
+            }
+        }
+    }
+}
+
+
+

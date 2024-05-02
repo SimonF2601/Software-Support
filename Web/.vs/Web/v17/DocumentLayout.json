@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11C47B50-600A-4633-9C5A-693A5ED9E281}|Web.csproj|C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\paginas\\styles\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{11C47B50-600A-4633-9C5A-693A5ED9E281}|Web.csproj|solutionrelative:paginas\\styles\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C47B50-600A-4633-9C5A-693A5ED9E281}|Web.csproj|c:\\users\\simon\\documents\\itm\\v semestre\\servicios web\\proyecto_software_support\\web\\paginas\\scripts\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{11C47B50-600A-4633-9C5A-693A5ED9E281}|Web.csproj|solutionrelative:paginas\\scripts\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C47B50-600A-4633-9C5A-693A5ED9E281}|Web.csproj|C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\paginas\\scripts\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{11C47B50-600A-4633-9C5A-693A5ED9E281}|Web.csproj|solutionrelative:paginas\\scripts\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C47B50-600A-4633-9C5A-693A5ED9E281}|Web.csproj|C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\paginas\\pages\\admin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{11C47B50-600A-4633-9C5A-693A5ED9E281}|Web.csproj|solutionrelative:paginas\\pages\\admin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C47B50-600A-4633-9C5A-693A5ED9E281}|Web.csproj|C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\paginas\\scripts\\tech.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{11C47B50-600A-4633-9C5A-693A5ED9E281}|Web.csproj|solutionrelative:paginas\\scripts\\tech.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C47B50-600A-4633-9C5A-693A5ED9E281}|Web.csproj|C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\paginas\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{11C47B50-600A-4633-9C5A-693A5ED9E281}|Web.csproj|solutionrelative:paginas\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 248,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "home.css",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\Paginas\\styles\\home.css",
+              "RelativeDocumentMoniker": "Paginas\\styles\\home.css",
+              "ToolTip": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\Paginas\\styles\\home.css",
+              "RelativeToolTip": "Paginas\\styles\\home.css",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAD8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-25T23:07:28.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tech.js",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\Paginas\\scripts\\tech.js",
+              "RelativeDocumentMoniker": "Paginas\\scripts\\tech.js",
+              "ToolTip": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\Paginas\\scripts\\tech.js",
+              "RelativeToolTip": "Paginas\\scripts\\tech.js",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAQwIIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-25T19:48:00.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "admin.html",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\Paginas\\pages\\admin.html",
+              "RelativeDocumentMoniker": "Paginas\\pages\\admin.html",
+              "ToolTip": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\Paginas\\pages\\admin.html",
+              "RelativeToolTip": "Paginas\\pages\\admin.html",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-25T19:47:25.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\Paginas\\scripts\\index.js",
+              "RelativeDocumentMoniker": "Paginas\\scripts\\index.js",
+              "ToolTip": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\Paginas\\scripts\\index.js",
+              "RelativeToolTip": "Paginas\\scripts\\index.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-25T19:46:38.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "admin.js",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\Paginas\\scripts\\admin.js",
+              "RelativeDocumentMoniker": "Paginas\\scripts\\admin.js",
+              "ToolTip": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\Paginas\\scripts\\admin.js",
+              "RelativeToolTip": "Paginas\\scripts\\admin.js",
+              "ViewState": "AQIAAMICAAAAAAAAAAAowOYBAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-25T12:32:04.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\Paginas\\index.html",
+              "RelativeDocumentMoniker": "Paginas\\index.html",
+              "ToolTip": "C:\\Users\\simon\\Documents\\ITM\\V Semestre\\Servicios Web\\Proyecto_Software_Support\\Web\\Paginas\\index.html",
+              "RelativeToolTip": "Paginas\\index.html",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-25T12:14:47.09Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
