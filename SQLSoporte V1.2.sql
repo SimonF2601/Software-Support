@@ -79,7 +79,7 @@ CREATE TABLE Contact_Number (
 -- Table: Supplier
 CREATE TABLE Supplier (
     Supplier_ID INT IDENTITY (1,1) PRIMARY KEY,
-    Tax_ID NVARCHAR(20),
+    NIT NVARCHAR(20),
     Name NVARCHAR(100),
     Email NVARCHAR(100),
     Address_ID INT, -- Reference to the Address table
