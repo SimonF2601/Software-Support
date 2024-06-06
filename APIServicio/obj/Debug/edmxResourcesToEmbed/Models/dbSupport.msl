@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SupportModelStoreContainer" CdmEntityContainer="SupportEntities">
+    <EntitySetMapping Name="Addres">
+      <EntityTypeMapping TypeName="SupportModel.Addre">
+        <MappingFragment StoreEntitySet="Addres">
+          <ScalarProperty Name="Address_ID" ColumnName="Address_ID" />
+          <ScalarProperty Name="addres" ColumnName="addres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Brands">
+      <EntityTypeMapping TypeName="SupportModel.Brand">
+        <MappingFragment StoreEntitySet="Brand">
+          <ScalarProperty Name="Brand_ID" ColumnName="Brand_ID" />
+          <ScalarProperty Name="Brand1" ColumnName="Brand" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contact_Number">
+      <EntityTypeMapping TypeName="SupportModel.Contact_Number">
+        <MappingFragment StoreEntitySet="Contact_Number">
+          <ScalarProperty Name="Contact_Number_ID" ColumnName="Contact_Number_ID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Number_Type_ID" ColumnName="Number_Type_ID" />
+          <ScalarProperty Name="Customer_ID" ColumnName="Customer_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="SupportModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="Customer_ID" ColumnName="Customer_ID" />
+          <ScalarProperty Name="ID_Number" ColumnName="ID_Number" />
+          <ScalarProperty Name="Name_Customer" ColumnName="Name_Customer" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Contact_Number" ColumnName="Contact_Number" />
+          <ScalarProperty Name="Position_ID" ColumnName="Position_ID" />
+          <ScalarProperty Name="Department_ID" ColumnName="Department_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customer_User">
+      <EntityTypeMapping TypeName="SupportModel.Customer_User">
+        <MappingFragment StoreEntitySet="Customer_User">
+          <ScalarProperty Name="Id_CustomerUser" ColumnName="Id_CustomerUser" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password_user" ColumnName="Password_user" />
+          <ScalarProperty Name="Customer_ID" ColumnName="Customer_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="SupportModel.Department">
+        <MappingFragment StoreEntitySet="Department">
+          <ScalarProperty Name="Department_ID" ColumnName="Department_ID" />
+          <ScalarProperty Name="Department1" ColumnName="Department" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Invoices">
+      <EntityTypeMapping TypeName="SupportModel.Invoice">
+        <MappingFragment StoreEntitySet="Invoice">
+          <ScalarProperty Name="Invoice_ID" ColumnName="Invoice_ID" />
+          <ScalarProperty Name="Supplier_ID" ColumnName="Supplier_ID" />
+          <ScalarProperty Name="Detail_ID" ColumnName="Detail_ID" />
+          <ScalarProperty Name="Date_Invoice" ColumnName="Date_Invoice" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Number_Type">
+      <EntityTypeMapping TypeName="SupportModel.Number_Type">
+        <MappingFragment StoreEntitySet="Number_Type">
+          <ScalarProperty Name="Number_Type_ID" ColumnName="Number_Type_ID" />
+          <ScalarProperty Name="Number_Type1" ColumnName="Number_Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Positions">
+      <EntityTypeMapping TypeName="SupportModel.Position">
+        <MappingFragment StoreEntitySet="Position">
+          <ScalarProperty Name="Position_ID" ColumnName="Position_ID" />
+          <ScalarProperty Name="Position1" ColumnName="Position" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="SupportModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
+          <ScalarProperty Name="Product_Type_ID" ColumnName="Product_Type_ID" />
+          <ScalarProperty Name="Brand_ID" ColumnName="Brand_ID" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="Features" ColumnName="Features" />
+          <ScalarProperty Name="Supplier_ID" ColumnName="Supplier_ID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product_Detail">
+      <EntityTypeMapping TypeName="SupportModel.Product_Detail">
+        <MappingFragment StoreEntitySet="Product_Detail">
+          <ScalarProperty Name="Detail_ID" ColumnName="Detail_ID" />
+          <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product_Type">
+      <EntityTypeMapping TypeName="SupportModel.Product_Type">
+        <MappingFragment StoreEntitySet="Product_Type">
+          <ScalarProperty Name="Product_Type_ID" ColumnName="Product_Type_ID" />
+          <ScalarProperty Name="Product" ColumnName="Product" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Specialties">
+      <EntityTypeMapping TypeName="SupportModel.Specialty">
+        <MappingFragment StoreEntitySet="Specialty">
+          <ScalarProperty Name="Specialty_ID" ColumnName="Specialty_ID" />
+          <ScalarProperty Name="Specialty1" ColumnName="Specialty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="SupportModel.Supplier">
+        <MappingFragment StoreEntitySet="Supplier">
+          <ScalarProperty Name="Supplier_ID" ColumnName="Supplier_ID" />
+          <ScalarProperty Name="Tax_ID" ColumnName="Tax_ID" />
+          <ScalarProperty Name="Name_Supplier" ColumnName="Name_Supplier" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address_ID" ColumnName="Address_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Supplier_Contact_Number">
+      <EntityTypeMapping TypeName="SupportModel.Supplier_Contact_Number">
+        <MappingFragment StoreEntitySet="Supplier_Contact_Number">
+          <ScalarProperty Name="Contact_Number_ID" ColumnName="Contact_Number_ID" />
+          <ScalarProperty Name="Supplier_ID" ColumnName="Supplier_ID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Number_Type_ID" ColumnName="Number_Type_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Support_Type">
+      <EntityTypeMapping TypeName="SupportModel.Support_Type">
+        <MappingFragment StoreEntitySet="Support_Type">
+          <ScalarProperty Name="Support_Type_ID" ColumnName="Support_Type_ID" />
+          <ScalarProperty Name="Support_Type1" ColumnName="Support_Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Technicians">
+      <EntityTypeMapping TypeName="SupportModel.Technician">
+        <MappingFragment StoreEntitySet="Technician">
+          <ScalarProperty Name="Technician_ID" ColumnName="Technician_ID" />
+          <ScalarProperty Name="Document" ColumnName="Document" />
+          <ScalarProperty Name="Name_Technician" ColumnName="Name_Technician" />
+          <ScalarProperty Name="Specialty_ID" ColumnName="Specialty_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Technician_User">
+      <EntityTypeMapping TypeName="SupportModel.Technician_User">
+        <MappingFragment StoreEntitySet="Technician_User">
+          <ScalarProperty Name="Id_TechnicianUser" ColumnName="Id_TechnicianUser" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password_technician" ColumnName="Password_technician" />
+          <ScalarProperty Name="Technician_ID" ColumnName="Technician_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tickets">
+      <EntityTypeMapping TypeName="SupportModel.Ticket">
+        <MappingFragment StoreEntitySet="Ticket">
+          <ScalarProperty Name="Ticket_ID" ColumnName="Ticket_ID" />
+          <ScalarProperty Name="Customer_ID" ColumnName="Customer_ID" />
+          <ScalarProperty Name="Status_ID" ColumnName="Status_ID" />
+          <ScalarProperty Name="Creation_Date" ColumnName="Creation_Date" />
+          <ScalarProperty Name="Problem_Description" ColumnName="Problem_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ticket_Detail">
+      <EntityTypeMapping TypeName="SupportModel.Ticket_Detail">
+        <MappingFragment StoreEntitySet="Ticket_Detail">
+          <ScalarProperty Name="Detail_ID" ColumnName="Detail_ID" />
+          <ScalarProperty Name="Ticket_ID" ColumnName="Ticket_ID" />
+          <ScalarProperty Name="Technician_ID" ColumnName="Technician_ID" />
+          <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
+          <ScalarProperty Name="Support_Type_ID" ColumnName="Support_Type_ID" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ticket_Status">
+      <EntityTypeMapping TypeName="SupportModel.Ticket_Status">
+        <MappingFragment StoreEntitySet="Ticket_Status">
+          <ScalarProperty Name="Status_ID" ColumnName="Status_ID" />
+          <ScalarProperty Name="Ticket_Status1" ColumnName="Ticket_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
