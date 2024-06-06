@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SupportModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Addre">
+    <Key>
+      <PropertyRef Name="Address_ID" />
+    </Key>
+    <Property Name="Address_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="addres" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Suppliers" Relationship="Self.FK__Supplier__Addres__4E88ABD4" FromRole="Addres" ToRole="Supplier" />
+  </EntityType>
+  <EntityType Name="Brand">
+    <Key>
+      <PropertyRef Name="Brand_ID" />
+    </Key>
+    <Property Name="Brand_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Brand1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products" Relationship="Self.FK__Product__Brand_I__5629CD9C" FromRole="Brand" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Contact_Number">
+    <Key>
+      <PropertyRef Name="Contact_Number_ID" />
+    </Key>
+    <Property Name="Contact_Number_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Number" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Number_Type_ID" Type="Int32" />
+    <Property Name="Customer_ID" Type="Int32" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK__Contact_N__Custo__4BAC3F29" FromRole="Contact_Number" ToRole="Customer" />
+    <NavigationProperty Name="Number_Type" Relationship="Self.FK__Contact_N__Numbe__4AB81AF0" FromRole="Contact_Number" ToRole="Number_Type" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Customer_ID" />
+    </Key>
+    <Property Name="Customer_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Number" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Name_Customer" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Contact_Number" Type="Int32" />
+    <Property Name="Position_ID" Type="Int32" />
+    <Property Name="Department_ID" Type="Int32" />
+    <NavigationProperty Name="Contact_Number1" Relationship="Self.FK__Contact_N__Custo__4BAC3F29" FromRole="Customer" ToRole="Contact_Number" />
+    <NavigationProperty Name="Customer_User" Relationship="Self.FK__Customer___Custo__68487DD7" FromRole="Customer" ToRole="Customer_User" />
+    <NavigationProperty Name="Department" Relationship="Self.FK__Customer__Depart__45F365D3" FromRole="Customer" ToRole="Department" />
+    <NavigationProperty Name="Position" Relationship="Self.FK__Customer__Positi__44FF419A" FromRole="Customer" ToRole="Position" />
+    <NavigationProperty Name="Tickets" Relationship="Self.FK__Ticket__Customer__5FB337D6" FromRole="Customer" ToRole="Ticket" />
+  </EntityType>
+  <EntityType Name="Customer_User">
+    <Key>
+      <PropertyRef Name="Id_CustomerUser" />
+    </Key>
+    <Property Name="Id_CustomerUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password_user" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Customer_ID" Type="Int32" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK__Customer___Custo__68487DD7" FromRole="Customer_User" ToRole="Customer" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="Department_ID" />
+    </Key>
+    <Property Name="Department_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Department1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Customers" Relationship="Self.FK__Customer__Depart__45F365D3" FromRole="Department" ToRole="Customer" />
+  </EntityType>
+  <EntityType Name="Invoice">
+    <Key>
+      <PropertyRef Name="Invoice_ID" />
+    </Key>
+    <Property Name="Invoice_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Supplier_ID" Type="Int32" />
+    <Property Name="Detail_ID" Type="Int32" />
+    <Property Name="Date_Invoice" Type="DateTime" Precision="0" />
+    <Property Name="Amount" Type="Double" />
+    <NavigationProperty Name="Product_Detail" Relationship="Self.FK__Invoice__Detail___70DDC3D8" FromRole="Invoice" ToRole="Product_Detail" />
+    <NavigationProperty Name="Supplier" Relationship="Self.FK__Invoice__Supplie__71D1E811" FromRole="Invoice" ToRole="Supplier" />
+  </EntityType>
+  <EntityType Name="Number_Type">
+    <Key>
+      <PropertyRef Name="Number_Type_ID" />
+    </Key>
+    <Property Name="Number_Type_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Number_Type1" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Contact_Number" Relationship="Self.FK__Contact_N__Numbe__4AB81AF0" FromRole="Number_Type" ToRole="Contact_Number" />
+    <NavigationProperty Name="Supplier_Contact_Number" Relationship="Self.FK__Supplier___Numbe__52593CB8" FromRole="Number_Type" ToRole="Supplier_Contact_Number" />
+  </EntityType>
+  <EntityType Name="Position">
+    <Key>
+      <PropertyRef Name="Position_ID" />
+    </Key>
+    <Property Name="Position_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Position1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Customers" Relationship="Self.FK__Customer__Positi__44FF419A" FromRole="Position" ToRole="Customer" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Product_ID" />
+    </Key>
+    <Property Name="Product_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_Type_ID" Type="Int32" />
+    <Property Name="Brand_ID" Type="Int32" />
+    <Property Name="Serial" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Features" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Supplier_ID" Type="Int32" />
+    <Property Name="Price" Type="Double" />
+    <NavigationProperty Name="Brand" Relationship="Self.FK__Product__Brand_I__5629CD9C" FromRole="Product" ToRole="Brand" />
+    <NavigationProperty Name="Product_Type" Relationship="Self.FK__Product__Product__5535A963" FromRole="Product" ToRole="Product_Type" />
+    <NavigationProperty Name="Supplier" Relationship="Self.FK__Product__Supplie__571DF1D5" FromRole="Product" ToRole="Supplier" />
+    <NavigationProperty Name="Product_Detail" Relationship="Self.FK__Product_D__Produ__6E01572D" FromRole="Product" ToRole="Product_Detail" />
+    <NavigationProperty Name="Ticket_Detail" Relationship="Self.FK__Ticket_De__Produ__6477ECF3" FromRole="Product" ToRole="Ticket_Detail" />
+  </EntityType>
+  <EntityType Name="Product_Detail">
+    <Key>
+      <PropertyRef Name="Detail_ID" />
+    </Key>
+    <Property Name="Detail_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_ID" Type="Int32" />
+    <Property Name="Quantity" Type="Int32" />
+    <NavigationProperty Name="Invoices" Relationship="Self.FK__Invoice__Detail___70DDC3D8" FromRole="Product_Detail" ToRole="Invoice" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__Product_D__Produ__6E01572D" FromRole="Product_Detail" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Product_Type">
+    <Key>
+      <PropertyRef Name="Product_Type_ID" />
+    </Key>
+    <Property Name="Product_Type_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products" Relationship="Self.FK__Product__Product__5535A963" FromRole="Product_Type" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Specialty">
+    <Key>
+      <PropertyRef Name="Specialty_ID" />
+    </Key>
+    <Property Name="Specialty_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Specialty1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Technicians" Relationship="Self.FK__Technicia__Speci__59FA5E80" FromRole="Specialty" ToRole="Technician" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="Supplier_ID" />
+    </Key>
+    <Property Name="Supplier_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tax_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Name_Supplier" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Address_ID" Type="Int32" />
+    <NavigationProperty Name="Addre" Relationship="Self.FK__Supplier__Addres__4E88ABD4" FromRole="Supplier" ToRole="Addres" />
+    <NavigationProperty Name="Invoices" Relationship="Self.FK__Invoice__Supplie__71D1E811" FromRole="Supplier" ToRole="Invoice" />
+    <NavigationProperty Name="Products" Relationship="Self.FK__Product__Supplie__571DF1D5" FromRole="Supplier" ToRole="Product" />
+    <NavigationProperty Name="Supplier_Contact_Number" Relationship="Self.FK__Supplier___Suppl__5165187F" FromRole="Supplier" ToRole="Supplier_Contact_Number" />
+  </EntityType>
+  <EntityType Name="Supplier_Contact_Number">
+    <Key>
+      <PropertyRef Name="Contact_Number_ID" />
+    </Key>
+    <Property Name="Contact_Number_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Supplier_ID" Type="Int32" />
+    <Property Name="Number" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Number_Type_ID" Type="Int32" />
+    <NavigationProperty Name="Number_Type" Relationship="Self.FK__Supplier___Numbe__52593CB8" FromRole="Supplier_Contact_Number" ToRole="Number_Type" />
+    <NavigationProperty Name="Supplier" Relationship="Self.FK__Supplier___Suppl__5165187F" FromRole="Supplier_Contact_Number" ToRole="Supplier" />
+  </EntityType>
+  <EntityType Name="Support_Type">
+    <Key>
+      <PropertyRef Name="Support_Type_ID" />
+    </Key>
+    <Property Name="Support_Type_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Support_Type1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Ticket_Detail" Relationship="Self.FK__Ticket_De__Suppo__656C112C" FromRole="Support_Type" ToRole="Ticket_Detail" />
+  </EntityType>
+  <EntityType Name="Technician">
+    <Key>
+      <PropertyRef Name="Technician_ID" />
+    </Key>
+    <Property Name="Technician_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Document" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Name_Technician" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Specialty_ID" Type="Int32" />
+    <NavigationProperty Name="Specialty" Relationship="Self.FK__Technicia__Speci__59FA5E80" FromRole="Technician" ToRole="Specialty" />
+    <NavigationProperty Name="Technician_User" Relationship="Self.FK__Technicia__Techn__6B24EA82" FromRole="Technician" ToRole="Technician_User" />
+    <NavigationProperty Name="Ticket_Detail" Relationship="Self.FK__Ticket_De__Techn__6383C8BA" FromRole="Technician" ToRole="Ticket_Detail" />
+  </EntityType>
+  <EntityType Name="Technician_User">
+    <Key>
+      <PropertyRef Name="Id_TechnicianUser" />
+    </Key>
+    <Property Name="Id_TechnicianUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password_technician" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Technician_ID" Type="Int32" />
+    <NavigationProperty Name="Technician" Relationship="Self.FK__Technicia__Techn__6B24EA82" FromRole="Technician_User" ToRole="Technician" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="Ticket_ID" />
+    </Key>
+    <Property Name="Ticket_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Customer_ID" Type="Int32" />
+    <Property Name="Status_ID" Type="Int32" />
+    <Property Name="Creation_Date" Type="DateTime" Precision="0" />
+    <Property Name="Problem_Description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK__Ticket__Customer__5FB337D6" FromRole="Ticket" ToRole="Customer" />
+    <NavigationProperty Name="Ticket_Status" Relationship="Self.FK__Ticket__Status_I__5EBF139D" FromRole="Ticket" ToRole="Ticket_Status" />
+    <NavigationProperty Name="Ticket_Detail" Relationship="Self.FK__Ticket_De__Ticke__628FA481" FromRole="Ticket" ToRole="Ticket_Detail" />
+  </EntityType>
+  <EntityType Name="Ticket_Detail">
+    <Key>
+      <PropertyRef Name="Detail_ID" />
+    </Key>
+    <Property Name="Detail_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ticket_ID" Type="Int32" />
+    <Property Name="Technician_ID" Type="Int32" />
+    <Property Name="Product_ID" Type="Int32" />
+    <Property Name="Support_Type_ID" Type="Int32" />
+    <Property Name="Detail" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__Ticket_De__Produ__6477ECF3" FromRole="Ticket_Detail" ToRole="Product" />
+    <NavigationProperty Name="Support_Type" Relationship="Self.FK__Ticket_De__Suppo__656C112C" FromRole="Ticket_Detail" ToRole="Support_Type" />
+    <NavigationProperty Name="Technician" Relationship="Self.FK__Ticket_De__Techn__6383C8BA" FromRole="Ticket_Detail" ToRole="Technician" />
+    <NavigationProperty Name="Ticket" Relationship="Self.FK__Ticket_De__Ticke__628FA481" FromRole="Ticket_Detail" ToRole="Ticket" />
+  </EntityType>
+  <EntityType Name="Ticket_Status">
+    <Key>
+      <PropertyRef Name="Status_ID" />
+    </Key>
+    <Property Name="Status_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ticket_Status1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Tickets" Relationship="Self.FK__Ticket__Status_I__5EBF139D" FromRole="Ticket_Status" ToRole="Ticket" />
+  </EntityType>
+  <Association Name="FK__Supplier__Addres__4E88ABD4">
+    <End Role="Addres" Type="Self.Addre" Multiplicity="0..1" />
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Addres">
+        <PropertyRef Name="Address_ID" />
+      </Principal>
+      <Dependent Role="Supplier">
+        <PropertyRef Name="Address_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__Brand_I__5629CD9C">
+    <End Role="Brand" Type="Self.Brand" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Brand">
+        <PropertyRef Name="Brand_ID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="Brand_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Contact_N__Custo__4BAC3F29">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Contact_Number" Type="Self.Contact_Number" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Customer_ID" />
+      </Principal>
+      <Dependent Role="Contact_Number">
+        <PropertyRef Name="Customer_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Contact_N__Numbe__4AB81AF0">
+    <End Role="Number_Type" Type="Self.Number_Type" Multiplicity="0..1" />
+    <End Role="Contact_Number" Type="Self.Contact_Number" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Number_Type">
+        <PropertyRef Name="Number_Type_ID" />
+      </Principal>
+      <Dependent Role="Contact_Number">
+        <PropertyRef Name="Number_Type_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Customer___Custo__68487DD7">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Customer_User" Type="Self.Customer_User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Customer_ID" />
+      </Principal>
+      <Dependent Role="Customer_User">
+        <PropertyRef Name="Customer_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Customer__Depart__45F365D3">
+    <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="Department_ID" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="Department_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Customer__Positi__44FF419A">
+    <End Role="Position" Type="Self.Position" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Position">
+        <PropertyRef Name="Position_ID" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="Position_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket__Customer__5FB337D6">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Ticket" Type="Self.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Customer_ID" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="Customer_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Invoice__Detail___70DDC3D8">
+    <End Role="Product_Detail" Type="Self.Product_Detail" Multiplicity="0..1" />
+    <End Role="Invoice" Type="Self.Invoice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product_Detail">
+        <PropertyRef Name="Detail_ID" />
+      </Principal>
+      <Dependent Role="Invoice">
+        <PropertyRef Name="Detail_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Invoice__Supplie__71D1E811">
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="0..1" />
+    <End Role="Invoice" Type="Self.Invoice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="Supplier_ID" />
+      </Principal>
+      <Dependent Role="Invoice">
+        <PropertyRef Name="Supplier_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Supplier___Numbe__52593CB8">
+    <End Role="Number_Type" Type="Self.Number_Type" Multiplicity="0..1" />
+    <End Role="Supplier_Contact_Number" Type="Self.Supplier_Contact_Number" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Number_Type">
+        <PropertyRef Name="Number_Type_ID" />
+      </Principal>
+      <Dependent Role="Supplier_Contact_Number">
+        <PropertyRef Name="Number_Type_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__Product__5535A963">
+    <End Role="Product_Type" Type="Self.Product_Type" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product_Type">
+        <PropertyRef Name="Product_Type_ID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="Product_Type_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__Supplie__571DF1D5">
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="Supplier_ID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="Supplier_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product_D__Produ__6E01572D">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="Product_Detail" Type="Self.Product_Detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Product_ID" />
+      </Principal>
+      <Dependent Role="Product_Detail">
+        <PropertyRef Name="Product_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket_De__Produ__6477ECF3">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="Ticket_Detail" Type="Self.Ticket_Detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Product_ID" />
+      </Principal>
+      <Dependent Role="Ticket_Detail">
+        <PropertyRef Name="Product_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Technicia__Speci__59FA5E80">
+    <End Role="Specialty" Type="Self.Specialty" Multiplicity="0..1" />
+    <End Role="Technician" Type="Self.Technician" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Specialty">
+        <PropertyRef Name="Specialty_ID" />
+      </Principal>
+      <Dependent Role="Technician">
+        <PropertyRef Name="Specialty_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Supplier___Suppl__5165187F">
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="0..1" />
+    <End Role="Supplier_Contact_Number" Type="Self.Supplier_Contact_Number" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="Supplier_ID" />
+      </Principal>
+      <Dependent Role="Supplier_Contact_Number">
+        <PropertyRef Name="Supplier_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket_De__Suppo__656C112C">
+    <End Role="Support_Type" Type="Self.Support_Type" Multiplicity="0..1" />
+    <End Role="Ticket_Detail" Type="Self.Ticket_Detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Support_Type">
+        <PropertyRef Name="Support_Type_ID" />
+      </Principal>
+      <Dependent Role="Ticket_Detail">
+        <PropertyRef Name="Support_Type_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Technicia__Techn__6B24EA82">
+    <End Role="Technician" Type="Self.Technician" Multiplicity="0..1" />
+    <End Role="Technician_User" Type="Self.Technician_User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Technician">
+        <PropertyRef Name="Technician_ID" />
+      </Principal>
+      <Dependent Role="Technician_User">
+        <PropertyRef Name="Technician_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket_De__Techn__6383C8BA">
+    <End Role="Technician" Type="Self.Technician" Multiplicity="0..1" />
+    <End Role="Ticket_Detail" Type="Self.Ticket_Detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Technician">
+        <PropertyRef Name="Technician_ID" />
+      </Principal>
+      <Dependent Role="Ticket_Detail">
+        <PropertyRef Name="Technician_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket__Status_I__5EBF139D">
+    <End Role="Ticket_Status" Type="Self.Ticket_Status" Multiplicity="0..1" />
+    <End Role="Ticket" Type="Self.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ticket_Status">
+        <PropertyRef Name="Status_ID" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="Status_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ticket_De__Ticke__628FA481">
+    <End Role="Ticket" Type="Self.Ticket" Multiplicity="0..1" />
+    <End Role="Ticket_Detail" Type="Self.Ticket_Detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ticket">
+        <PropertyRef Name="Ticket_ID" />
+      </Principal>
+      <Dependent Role="Ticket_Detail">
+        <PropertyRef Name="Ticket_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SupportEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Addres" EntityType="Self.Addre" />
+    <EntitySet Name="Brands" EntityType="Self.Brand" />
+    <EntitySet Name="Contact_Number" EntityType="Self.Contact_Number" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Customer_User" EntityType="Self.Customer_User" />
+    <EntitySet Name="Departments" EntityType="Self.Department" />
+    <EntitySet Name="Invoices" EntityType="Self.Invoice" />
+    <EntitySet Name="Number_Type" EntityType="Self.Number_Type" />
+    <EntitySet Name="Positions" EntityType="Self.Position" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="Product_Detail" EntityType="Self.Product_Detail" />
+    <EntitySet Name="Product_Type" EntityType="Self.Product_Type" />
+    <EntitySet Name="Specialties" EntityType="Self.Specialty" />
+    <EntitySet Name="Suppliers" EntityType="Self.Supplier" />
+    <EntitySet Name="Supplier_Contact_Number" EntityType="Self.Supplier_Contact_Number" />
+    <EntitySet Name="Support_Type" EntityType="Self.Support_Type" />
+    <EntitySet Name="Technicians" EntityType="Self.Technician" />
+    <EntitySet Name="Technician_User" EntityType="Self.Technician_User" />
+    <EntitySet Name="Tickets" EntityType="Self.Ticket" />
+    <EntitySet Name="Ticket_Detail" EntityType="Self.Ticket_Detail" />
+    <EntitySet Name="Ticket_Status" EntityType="Self.Ticket_Status" />
+    <AssociationSet Name="FK__Supplier__Addres__4E88ABD4" Association="Self.FK__Supplier__Addres__4E88ABD4">
+      <End Role="Addres" EntitySet="Addres" />
+      <End Role="Supplier" EntitySet="Suppliers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__Brand_I__5629CD9C" Association="Self.FK__Product__Brand_I__5629CD9C">
+      <End Role="Brand" EntitySet="Brands" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Contact_N__Custo__4BAC3F29" Association="Self.FK__Contact_N__Custo__4BAC3F29">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Contact_Number" EntitySet="Contact_Number" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Contact_N__Numbe__4AB81AF0" Association="Self.FK__Contact_N__Numbe__4AB81AF0">
+      <End Role="Number_Type" EntitySet="Number_Type" />
+      <End Role="Contact_Number" EntitySet="Contact_Number" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Customer___Custo__68487DD7" Association="Self.FK__Customer___Custo__68487DD7">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Customer_User" EntitySet="Customer_User" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Customer__Depart__45F365D3" Association="Self.FK__Customer__Depart__45F365D3">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Customer" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Customer__Positi__44FF419A" Association="Self.FK__Customer__Positi__44FF419A">
+      <End Role="Position" EntitySet="Positions" />
+      <End Role="Customer" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket__Customer__5FB337D6" Association="Self.FK__Ticket__Customer__5FB337D6">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Ticket" EntitySet="Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Invoice__Detail___70DDC3D8" Association="Self.FK__Invoice__Detail___70DDC3D8">
+      <End Role="Product_Detail" EntitySet="Product_Detail" />
+      <End Role="Invoice" EntitySet="Invoices" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Invoice__Supplie__71D1E811" Association="Self.FK__Invoice__Supplie__71D1E811">
+      <End Role="Supplier" EntitySet="Suppliers" />
+      <End Role="Invoice" EntitySet="Invoices" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Supplier___Numbe__52593CB8" Association="Self.FK__Supplier___Numbe__52593CB8">
+      <End Role="Number_Type" EntitySet="Number_Type" />
+      <End Role="Supplier_Contact_Number" EntitySet="Supplier_Contact_Number" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__Product__5535A963" Association="Self.FK__Product__Product__5535A963">
+      <End Role="Product_Type" EntitySet="Product_Type" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__Supplie__571DF1D5" Association="Self.FK__Product__Supplie__571DF1D5">
+      <End Role="Supplier" EntitySet="Suppliers" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product_D__Produ__6E01572D" Association="Self.FK__Product_D__Produ__6E01572D">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Product_Detail" EntitySet="Product_Detail" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket_De__Produ__6477ECF3" Association="Self.FK__Ticket_De__Produ__6477ECF3">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Ticket_Detail" EntitySet="Ticket_Detail" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Technicia__Speci__59FA5E80" Association="Self.FK__Technicia__Speci__59FA5E80">
+      <End Role="Specialty" EntitySet="Specialties" />
+      <End Role="Technician" EntitySet="Technicians" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Supplier___Suppl__5165187F" Association="Self.FK__Supplier___Suppl__5165187F">
+      <End Role="Supplier" EntitySet="Suppliers" />
+      <End Role="Supplier_Contact_Number" EntitySet="Supplier_Contact_Number" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket_De__Suppo__656C112C" Association="Self.FK__Ticket_De__Suppo__656C112C">
+      <End Role="Support_Type" EntitySet="Support_Type" />
+      <End Role="Ticket_Detail" EntitySet="Ticket_Detail" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Technicia__Techn__6B24EA82" Association="Self.FK__Technicia__Techn__6B24EA82">
+      <End Role="Technician" EntitySet="Technicians" />
+      <End Role="Technician_User" EntitySet="Technician_User" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket_De__Techn__6383C8BA" Association="Self.FK__Ticket_De__Techn__6383C8BA">
+      <End Role="Technician" EntitySet="Technicians" />
+      <End Role="Ticket_Detail" EntitySet="Ticket_Detail" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket__Status_I__5EBF139D" Association="Self.FK__Ticket__Status_I__5EBF139D">
+      <End Role="Ticket_Status" EntitySet="Ticket_Status" />
+      <End Role="Ticket" EntitySet="Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ticket_De__Ticke__628FA481" Association="Self.FK__Ticket_De__Ticke__628FA481">
+      <End Role="Ticket" EntitySet="Tickets" />
+      <End Role="Ticket_Detail" EntitySet="Ticket_Detail" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
